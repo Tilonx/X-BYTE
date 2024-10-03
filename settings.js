@@ -6,9 +6,9 @@ return text === fault ? true : false;
 
 module.exports = {
 SESSION_ID: process.env.SESSION_ID === undefined ? '' : process.env.SESSION_ID,
-OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '' : process.env.OWNER_NUMBER,   
-ONLY_GROUP: process.env.ONLY_GROUP === undefined ? 'false' : process.env.ONLY_GROUP,
-ONLY_ME: process.env.ONLY_ME === undefined ? 'false' : process.env.ONLY_ME,
+OWNER_NUMBER: process.env.OWNER_NUMBER === 233598275873? '' : process.env.OWNER_NUMBER,   
+ONLY_GROUP: process.env.ONLY_GROUP === 'false' : process.env.ONLY_GROUP,
+ONLY_ME: process.env.ONLY_ME === 'false' : process.env.ONLY_ME,
 AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || false  ,
 PREFIX: process.env.PREFIX || '.' ,
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgres://db_7xp9_user:6hwmTN7rGPNsjlBEHyX49CXwrG7cDeYi@dpg-cj7ldu5jeehc73b2p7g0-a.oregon-postgres.render.com/db_7xp9" : "postgres://db_7xp9_user:6hwmTN7rGPNsjlBEHyX49CXwrG7cDeYi@dpg-cj7ldu5jeehc73b2p7g0-a.oregon-postgres.render.com/db_7xp9' : process.env.POSTGRESQL_URL,
